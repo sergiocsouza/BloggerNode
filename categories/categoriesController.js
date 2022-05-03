@@ -3,13 +3,8 @@ const router = express.Router();
 
 
 
-
-router.get("/categories", (req, res)=>{
-    res.send("rota de categorias")
-});
-
-router.get("/admin", (req, res)=>{
-    res.send("Area da administração!")
+router.get("/admin/category/new", (req, res)=>{
+    res.render("admin/categories/new");
 })
 
 
