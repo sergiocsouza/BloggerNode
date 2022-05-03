@@ -35,7 +35,7 @@ connection
 
 app.use("/", categoriesController);
 
-app.use("/",articlesController);
+app.use("/", articlesController);
     
 
 app.listen(8080, () =>{
